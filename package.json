@@ -1,5 +1,6 @@
 {
   "name": "next-router-component",
+  "author": "DuGlaser <duglaser0618@gmail.com>",
   "version": "0.1.0",
   "license": "MIT",
   "source": "./index.tsx",
@@ -7,6 +8,14 @@
   "module": "dist/index.module.js",
   "unpkg": "dist/index.umd.js",
   "types": "dist/index.d.ts",
+  "keywords": [
+    "next.js",
+    "react",
+    "node",
+    "router",
+    "routes",
+    "routing",
+  ],
   "scripts": {
     "build": "microbundle --jsx React.createElement",
     "build:dev": "yarn build watch"
