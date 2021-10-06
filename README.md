@@ -4,7 +4,7 @@ Component-based routing with `Next.js`.
 
 ## Why?
 
-If you want to animate only between specific pages (e.g. onboarding page), you cannot do it well with next/route.
+If I want to animate only between specific pages (e.g. onboarding page), I cannot do it well with next/route.
 Therefore, I created this library because I wanted to create a file like `[[...slug]].jsx` and use components in it for routing.
 
 ## Install
