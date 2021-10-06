@@ -1,8 +1,16 @@
 {
   "name": "next-router-component",
-  "version": "1.0.0",
-  "main": "index.ts",
+  "version": "0.1.0",
   "license": "MIT",
+  "source": "./index.tsx",
+  "main": "dist/index.js",
+  "module": "dist/index.module.js",
+  "unpkg": "dist/index.umd.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "microbundle --jsx React.createElement",
+    "build:dev": "yarn build watch"
+  },
   "peerDependencies": {
     "next": ">=9.5.0 <12",
     "react": ">=16.8.0 <18",
