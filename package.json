@@ -14,7 +14,7 @@
     "node",
     "router",
     "routes",
-    "routing",
+    "routing"
   ],
   "scripts": {
     "build": "microbundle --jsx React.createElement",
