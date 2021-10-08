@@ -1,7 +1,7 @@
 {
   "name": "next-router-component",
   "author": "DuGlaser <duglaser0618@gmail.com>",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "license": "MIT",
   "source": "./index.tsx",
   "main": "dist/index.js",
